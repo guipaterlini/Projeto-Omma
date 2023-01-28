@@ -1,14 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 :root {
-    
+  --dark-primary-color: #ffa000;
+  --ligh-primary-color: #ffecb3;
+  --primary-color: #ffc107;
+  --text-icons: #212121;
+  --accent-color: #ffc107;
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --divider-color: #bdbdbd;
 }
