@@ -12,7 +12,7 @@ Link para acessar o projeto: https://guipaterlini.github.io/Projeto-Omma/
 - Boas práticas.
 - Páginas responsivas para computadores, tablets e smartphones.
 - Acessibilidade.
-- Use de variáveis no CSS.
+- Uso de variáveis no CSS.
 
 
 # ✅ Tecnologias utilizadas

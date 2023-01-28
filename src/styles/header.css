@@ -30,3 +30,8 @@ header a {
   font-size: 1.25rem;
   font-weight: 700;
 }
+
+header a:hover {
+  transition: 400ms;
+  color:var(--dark-primary-color-complementary);
+}

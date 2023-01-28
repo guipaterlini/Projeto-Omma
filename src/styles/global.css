@@ -15,10 +15,9 @@ body {
 
 :root {
   --dark-primary-color: #ffa000;
+  --dark-primary-color-complementary: #135194;
   --ligh-primary-color: #ffecb3;
   --primary-color: #ffc107;
-  --text-icons: #212121;
-  --accent-color: #ffc107;
   --primary-text: #212121;
   --secondary-text: #757575;
   --divider-color: #bdbdbd;
