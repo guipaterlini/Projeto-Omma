@@ -41,37 +41,6 @@
   padding: 0 42px;
 }
 
-.card-receita {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-receita p {
-  font-size: 1.625rem;
-  font-weight: 600;
-  line-height: 2rem;
-  padding-top: 12px;
-}
-
-.card-receita a {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.card-receita button {
-  background-color: #176902;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.813rem;
-  margin-top: 18px;
-  padding: 10px 0;
-  width: 53%;
-}
-
 .inicio-comer-e-viver-bem {
   align-items: flex-start;
   background-image: url(../..//assets/img/mulher-cozinhando-com-senhora\ 1440\ x\ 772.png);
