@@ -6,7 +6,7 @@
 }
 
 .card-receita p {
-  font-size: 1.625rem;
+  font-size: var(--font-size-md);
   font-weight: 600;
   padding-top: 12px;
 }
@@ -18,7 +18,7 @@
 }
 
 .card-receita button {
-  background-color: #176902;
+  background-color: var(--bg-button);
   border: none;
   color: #fff;
   font-size: 1.5rem;

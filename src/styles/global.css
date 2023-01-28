@@ -11,7 +11,6 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
-  
 }
 
 :root {
@@ -23,7 +22,9 @@ body {
   --primary-text: #212121;
   --secondary-text: #757575;
   --divider-color: #bdbdbd;
+  --bg-button: #176902;
   /* Fontes */
-  --font-size-larger: 4.5rem; /*(72px)*/
+  --font-size-md: 1.625rem; /*(26px)*/
   --font-size-big: 3.5rem; /*(56px)*/
+  --font-size-larger: 4.5rem; /*(72px)*/
 }
