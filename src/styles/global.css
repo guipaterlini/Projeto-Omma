@@ -23,4 +23,6 @@ body {
   --primary-text: #212121;
   --secondary-text: #757575;
   --divider-color: #bdbdbd;
+  /* Fontes */
+  --font-size-larger: 4.5rem; /*(72px)*/
 }

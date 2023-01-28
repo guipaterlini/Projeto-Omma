@@ -2,6 +2,8 @@
   align-items: center;
   background-image: url(../../assets/img/mulher-cozinhando-com-criança\ 1440x638.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: flex-end;
   height: 638.18px;
@@ -9,9 +11,8 @@
 
 .imagem-titulo-home h1 {
   color: #fff;
-  font-size: 4.375rem;
+  font-size: var(--font-size-larger);
   font-weight: 700;
-  line-height: 5.313rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
   width: 26%;
   margin-right: 101px;
@@ -29,7 +30,6 @@
   color: var(--dark-primary-color);
   font-weight: 700;
   font-size: 3.438rem;
-  line-height: 4.188renm;
   padding: 74px 0;
 }
 
@@ -44,6 +44,9 @@
 .inicio-comer-e-viver-bem {
   align-items: flex-start;
   background-image: url(../..//assets/img/mulher-cozinhando-com-senhora\ 1440\ x\ 772.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -57,13 +60,11 @@
 .inicio-comer-e-viver-bem h2 {
   font-size: 4.063rem;
   font-weight: 700;
-  line-height: 4.938rem;
 }
 
 .inicio-comer-e-viver-bem p {
   font-size: 1.5rem;
   font-weight: 500;
-  line-height: 1.813rem;
   padding-top: 73px;
   width: 32%;
 }
