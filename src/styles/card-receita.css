@@ -1,28 +1,29 @@
 .card-receita {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .card-receita p {
-    font-size: 1.625rem;
-    font-weight: 600;
-    padding-top: 12px;
-  }
-  
-  .card-receita a {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .card-receita button {
-    background-color: #176902;
-    border: none;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-top: 18px;
-    padding: 10px 0;
-    width: 53%;
-  }
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 58px 40px;
+}
+
+.card-receita p {
+  font-size: 1.625rem;
+  font-weight: 600;
+  padding-top: 12px;
+}
+
+.card-receita a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-receita button {
+  background-color: #176902;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 18px;
+  padding: 10px 0;
+  width: 53%;
+}
