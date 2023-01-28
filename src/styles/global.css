@@ -22,6 +22,7 @@ body {
   --secondary-text: #757575;
   --divider-color: #bdbdbd;
   --bg-button: #176902;
+  --bg-button-complementary: #940074;
   /* Fontes */
   --font-size-md: 1.625rem; /*(26px)*/
   --font-size-big: 3.5rem; /*(56px)*/
