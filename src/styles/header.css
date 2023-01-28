@@ -1,0 +1,21 @@
+.div-logo-omma {
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  background-color: var(--dark-primary-color);
+  display: flex;
+  justify-content: center;
+}
+
+header ol {
+  display: flex;
+  padding: 0 58px;
+}
+
+header a {
+  color: #fdfdfd;
+}
