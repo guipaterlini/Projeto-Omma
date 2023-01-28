@@ -1,21 +1,32 @@
 .div-logo-omma {
+  align-items: center;
   background-color: var(--primary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
+  height: 117px;
 }
 
 header nav {
+  align-items: center;
   background-color: var(--dark-primary-color);
   display: flex;
   justify-content: center;
+  height: 48px;
 }
 
 header ol {
   display: flex;
-  padding: 0 58px;
+}
+
+header li {
+  padding: 0 29px;
 }
 
 header a {
   color: #fdfdfd;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
 }
