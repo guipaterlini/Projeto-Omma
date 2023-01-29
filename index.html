@@ -39,10 +39,16 @@
             src="./assets/img/omma-logo-vertical 348 x 170.png"
             alt="Logo da Omma"
         /></a>
-        <span id="btn-mobile"></span>
+        <span
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        ></span>
       </div>
       <nav id="nav">
-        <ol id="menu">
+        <ol id="menu" role="menu">
           <li><a href="./index.html">início</a></li>
           <li><a href="./src/screens/receitas.html">receitas</a></li>
           <li><a href="./src/screens/contato.html">contato</a></li>
