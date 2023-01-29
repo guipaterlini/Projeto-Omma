@@ -6,22 +6,21 @@ main {
 .todas-as-receitas {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 105px;
   padding: 0 44px;
   margin: 0 auto;
   margin-bottom: 11px;
-  width: 85%;
+  width: 90%;
 }
 
 .todas-as-receitas h1 {
-  align-self: flex-end;
   color: var(--dark-primary-color);
   font-size: 50px;
   font-weight: 700;
 }
 
 .todas-as-receitas input {
-  align-self: flex-start;
   border: 1px solid #ffa000;
   color: #58555d;
   border-radius: 7px;
