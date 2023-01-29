@@ -18,6 +18,8 @@ main {
   color: var(--dark-primary-color);
   font-size: 50px;
   font-weight: 700;
+  text-align: center;
+  width: 50%;
 }
 
 .todas-as-receitas input {
@@ -38,6 +40,31 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 80px;
-  width: 95%;
+  width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    padding-top: 0;
+  }
+
+  .todas-as-receitas {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .todas-as-receitas h1 {
+    width: 100%;
+  }
+
+  .todas-as-receitas input {
+    margin: 15px 0;
+    width: 200px;
+    display: flex;
+    align-self: flex-end;
+    height: 30px;
+  }
 }
