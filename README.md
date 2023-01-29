@@ -12,12 +12,14 @@ Link para acessar o projeto: https://guipaterlini.github.io/Projeto-Omma/
 - Páginas responsivas para computadores, tablets e smartphones.
 - Acessibilidade.
 - Uso de variáveis no CSS.
+- Menu hamburger em smarphones.
 
 
 # ✅ Tecnologias utilizadas
 
 - HTML5
 - CSS3
+- Javascript
 
 # 🧑‍💻 Autor
 
