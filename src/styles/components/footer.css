@@ -1,0 +1,20 @@
+footer {
+  align-items: center;
+  background-color: var(--primary-color);
+  display: flex;
+  height: 119px;
+  justify-content: flex-start;
+}
+
+footer img {
+  height: 84px;
+  margin-left: 10px;
+  margin-right: 43px;
+  width: auto;
+}
+
+footer span {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 700;
+}

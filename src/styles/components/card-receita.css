@@ -1,0 +1,35 @@
+.card-receita {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 58px 40px;
+}
+
+.card-receita p {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  padding-top: 12px;
+}
+
+.card-receita a {
+  display: flex;
+  justify-content: center;
+  width: 53%;
+}
+
+.card-receita button {
+  background-color: var(--bg-button);
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 18px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.card-receita button:hover {
+  transition: 400ms;
+  background-color: var(--bg-button-complementary);
+  cursor: pointer;
+}

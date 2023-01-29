@@ -1,0 +1,43 @@
+main {
+  padding: 60px 0;
+  width: 100%;
+}
+
+.todas-as-receitas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 105px;
+  padding: 0 44px;
+  margin: 0 auto;
+  margin-bottom: 11px;
+  width: 90%;
+}
+
+.todas-as-receitas h1 {
+  color: var(--dark-primary-color);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.todas-as-receitas input {
+  border: 1px solid #ffa000;
+  color: #58555d;
+  border-radius: 7px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 66px;
+  max-width: 500px;
+  padding-left: 20px;
+  width: 38%;
+}
+
+.cards-todas-as-receitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  width: 95%;
+}

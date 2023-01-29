@@ -1,0 +1,68 @@
+.imagem-titulo-home {
+  align-items: center;
+  background-image: url(../../assets/img/mulher-cozinhando-com-crianca\ 1440x638.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 638.18px;
+}
+
+.imagem-titulo-home h1 {
+  color: #fff;
+  font-size: var(--font-size-larger);
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  width: 26%;
+  margin-right: 101px;
+  margin-bottom: 136.18px;
+}
+
+.receitas-da-semana {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.receitas-da-semana h2 {
+  color: var(--dark-primary-color);
+  font-weight: 700;
+  font-size: var(--font-size-big);
+  padding: 74px 16px 0;
+}
+
+.cards-das-receitas-da-semana {
+  display: flex;
+}
+
+.inicio-comer-e-viver-bem {
+  align-items: flex-start;
+  background-image: url(../../assets/img/mulher-cozinhando-com-senhora\ 1440\ x\ 772.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 772px;
+  justify-content: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 123px;
+  width: 100%;
+}
+
+.inicio-comer-e-viver-bem h2 {
+  font-size: var(--font-size-big);
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inicio-comer-e-viver-bem p {
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  padding-top: 73px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 32%;
+}
