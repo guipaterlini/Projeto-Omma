@@ -1,3 +1,7 @@
+#vertical-logo-footer {
+  display: none;
+}
+
 footer {
   align-items: center;
   background-color: var(--primary-color);
@@ -15,6 +19,33 @@ footer img {
 
 footer span {
   color: #fff;
-  font-size: 1.125rem;
+  font-size: var(--font-size-smaller);
   font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  #horizontal-logo-footer {
+    display: none;
+  }
+
+  #vertical-logo-footer {
+    display: flex;
+  }
+
+  footer {
+    flex-direction: column;
+    height: 140px;
+    justify-content: center;
+    padding: 20px o;
+  }
+
+  footer img {
+    margin: 0;
+  }
+
+  footer span {
+    font-weight: 500;
+    width: 90%;
+    text-align: center;
+  }
 }

@@ -86,3 +86,34 @@
   cursor: pointer;
   transition: 400ms;
 }
+
+@media only screen and (max-width: 768px) {
+  .capa-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .capa-contato h1 {
+    padding: 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  .formulario-contato img {
+    display: none;
+  }
+
+  .formulario-contato form {
+    width: 90%;
+  }
+
+  .formulario-contato input,
+  .formulario-contato textarea {
+    width: 90%;
+  }
+  
+  .formulario-contato button {
+    width: 50%;
+  }
+}
