@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+main,
+aside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 107px;
+  width: 50%;
+}
+
+main {
+  align-items: flex-start;
+  padding-left: 120px;
+}
+
+aside {
+  align-items: center;
+  padding-top: 71px;
+}
+
+.cabeçalho h1 {
+  color: var(--dark-primary-color);
+  font-size: var(--font-size-big);
+  font-weight: 700;
+  padding: 3px 0;
+}
+
+.cabeçalho img {
+  padding: 25px 0;
+}
+
+#dificuldade,
+#pessoasServidas {
+  color: var(--bg-button);
+  border: 1px solid var(--bg-button);
+  border-radius: 47px;
+  height: 31px;
+  padding: 7px 22px;
+}
+
+#pessoasServidas {
+  margin-left: 19px;
+}
+
+.ingredientes,
+.video h5,
+.modo-de-preparo h5,
+.modo-de-preparo ol {
+  font-size: var(--font-size-small);
+  margin-top: 65px;
+}
+
+.ingredientes h5,
+.video h5,
+.modo-de-preparo h5 {
+  font-weight: 700;
+}
+
+.ingredientes li,
+.modo-de-preparo li {
+  font-weight: 300;
+}
+
+.modo-de-preparo ol {
+  margin: 30px 0 166px 0;
+}
+
+.video iframe {
+  margin-top: 37px;
+  width: 100%;
+}

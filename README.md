@@ -8,7 +8,6 @@ Link para acessar o projeto: https://guipaterlini.github.io/Projeto-Omma/
 
 
 # 📁 Objetivos de estudo
-- Git e Git Flow.
 - Boas práticas.
 - Páginas responsivas para computadores, tablets e smartphones.
 - Acessibilidade.
