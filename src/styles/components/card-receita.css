@@ -33,3 +33,12 @@
   background-color: var(--bg-button-complementary);
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .card-receita {
+    padding: 40px 0;
+  }
+  .card-receita img {
+    width: 95%;
+  }
+}
