@@ -1,3 +1,7 @@
+#vertical-logo {
+  display: none;
+}
+
 .div-logo-omma {
   align-items: center;
   background-color: var(--primary-color);
@@ -33,5 +37,23 @@ header a {
 
 header a:hover {
   transition: 400ms;
-  color:var(--dark-primary-color-complementary);
+  color: var(--dark-primary-color-complementary);
+}
+
+@media only screen and (max-width: 480px) {
+  #horizontal-logo {
+    display: none;
+  }
+
+  #vertical-logo {
+    display: flex;
+  }
+
+  .div-logo-omma img {
+    width: 200px;
+  }
+
+  header li {
+    padding: 0 10px;
+  }
 }
