@@ -13,7 +13,7 @@ aside {
 
 main {
   align-items: flex-start;
-  padding-left: 120px;
+  padding-left: 10%;
 }
 
 aside {
@@ -30,6 +30,7 @@ aside {
 
 .cabeçalho img {
   padding: 25px 0;
+  width: 100%;
 }
 
 #dificuldade,
@@ -62,6 +63,8 @@ aside {
 .ingredientes li,
 .modo-de-preparo li {
   font-weight: 300;
+  max-width: 600px;
+  width: 100%;
 }
 
 .modo-de-preparo ol {
@@ -81,12 +84,18 @@ aside h4 {
 
 aside a {
   margin: 27px 0;
+  width: 50%;
 }
 
 aside article {
   align-items: center;
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+aside article img {
+  width: 100%;
 }
 
 aside article span {
@@ -102,4 +111,20 @@ aside article span {
 aside a:hover {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
   transition: 400ms;
+}
+
+@media only screen and (max-width: 768px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    padding: 0;
+    margin: 40px 0;
+    width: 85%;
+  }
+
+  .cabeçalho h1 {
+    text-align: center;
+  }
 }
