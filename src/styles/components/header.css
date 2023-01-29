@@ -80,6 +80,35 @@ header a:hover {
   }
 
   #btn-mobile {
+    border-top: 3px solid;
+    cursor: pointer;
+    color: #fff;
     display: block;
+    width: 30px;
+  }
+
+  #btn-mobile::after,
+  #btn-mobile::before {
+    background-color: currentColor;
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 7px;
+    width: 30px;
+    transition: 300ms;
+    position: relative;
+  }
+
+  #btn-mobile.active {
+    border-top-color: transparent;
+  }
+
+  #btn-mobile.active::before {
+    transform: rotate(135deg);
+  }
+
+  #btn-mobile.active::after {
+    transform: rotate(-135deg);
+    top: -9px;
   }
 }
