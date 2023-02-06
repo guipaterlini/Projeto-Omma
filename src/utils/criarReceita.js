@@ -1,3 +1,2 @@
-function criarReceit() {
-
-}
+function criarReceit() {}
+ 
