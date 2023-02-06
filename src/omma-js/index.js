@@ -1,19 +1,19 @@
 import receitasTextos from "../common/receitasTextos.mjs";
 import crypto from "crypto";
-import { criarReceita } from "../utils/criarReceita.js";
+import { criarReceita } from "../utils/criarReceita.mjs";
 
 const uuid = crypto.randomUUID();
 
 const nomeEmpresa = "Omma";
 
-var receitas = [
+global.receitas = [
   {
     id: uuid,
-    titulo: "Risoto de abobora",
+    titulo: "Risoto de soja",
     dificuldade: "simples",
-    ingredientes: receitasTextos.ingredientesRisotto,
-    instrucoes: receitasTextos.modoPreparoRisotto,
-    linkVideo: "https://www.youtube.com/embed/Mxc3RQE4yAg",
+    ingredientes: "",
+    instrucoes: "",
+    linkVideo: "",
     vegana: false,
   },
 ];
