@@ -11,7 +11,7 @@ function criarReceita({
 }) {
   const id = crypto.randomUUID();
 
-  receitas.push({
+  global.receitas.push({
     id,
     titulo,
     dificuldade,
