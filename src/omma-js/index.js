@@ -1,6 +1,7 @@
 import receitasTextos from "../common/receitasTextos.mjs";
 import crypto from "crypto";
 import { criarReceita } from "../utils/criarReceita.mjs";
+import { exibirReceitas } from "../utils/exibirReceitas.mjs";
 
 const uuid = crypto.randomUUID();
 
@@ -30,4 +31,4 @@ criarReceita({
   vegana: false,
 });
 
-console.log(receitas);
+exibirReceitas();
